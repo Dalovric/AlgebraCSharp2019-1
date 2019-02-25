@@ -27,13 +27,15 @@ namespace _5._2._3_Exception
                     Console.WriteLine("Uneseni broj je jednak nuli.");
                 }
             }
-            catch (FormatException fe)
+            catch (Exception e)
 
             {
-                Console.WriteLine("Opis greske: " + fe.Message);
+                Console.WriteLine("Opis greske: " + e.Message + e.ToString());
             }
-            Console.ReadKey();
-
+            finally
+            {
+                Console.ReadKey();
+            }
         }
     }
 }
