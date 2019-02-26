@@ -17,9 +17,9 @@ namespace Petlje_primjeri
                 Console.Write("{0} ", i);
             }
             Console.WriteLine("\nIspis svih brojeva 16,18,20...88 \n");
-            
+
             //Ispis svih brojeva 16,18,20...88
-            for (int i = 16; i < 89; i+=2)
+            for (int i = 16; i < 89; i += 2)
             {
                 Console.Write("{0} ", i);
             }
@@ -61,7 +61,7 @@ namespace Petlje_primjeri
                 {
                     Console.Write("{0} ", i);
                 }
-                
+
             }
 
             // Tablica mnozenja
@@ -74,7 +74,14 @@ namespace Petlje_primjeri
                 Console.WriteLine();
             }
 
+            Console.WriteLine("\n Suma prvih sto \n");
+            int suma = 0;
+            for (int i = 0; i < 5; i++)
+            {
+                Console.Write("{0} ", suma += i);
 
+                
+            }
             Console.ReadKey();
         }
     }
