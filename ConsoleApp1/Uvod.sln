@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.2.4.3_Skola", "5.2.4.3_Sk
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.2.4.1_ime_lozinka", "5.2.4.1_ime_lozinka\5.2.4.1_ime_lozinka.csproj", "{B21AB3E9-64E4-417F-9D16-660F64FC99D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.2.5_Ostatak", "5.2.5_Ostatak\5.2.5_Ostatak.csproj", "{0990C997-D108-4915-828F-D30A329CCC01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{B21AB3E9-64E4-417F-9D16-660F64FC99D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B21AB3E9-64E4-417F-9D16-660F64FC99D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B21AB3E9-64E4-417F-9D16-660F64FC99D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0990C997-D108-4915-828F-D30A329CCC01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0990C997-D108-4915-828F-D30A329CCC01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0990C997-D108-4915-828F-D30A329CCC01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0990C997-D108-4915-828F-D30A329CCC01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -109,5 +115,9 @@ Global
 		{C41D68F0-AB53-47C1-81C9-E4B03071DB17} = {8E645268-5ADF-47AC-BE8B-8B5DD6F774CE}
 		{B98815A7-DB80-49CE-A393-B84D2F85B4A1} = {8E645268-5ADF-47AC-BE8B-8B5DD6F774CE}
 		{B21AB3E9-64E4-417F-9D16-660F64FC99D3} = {8E645268-5ADF-47AC-BE8B-8B5DD6F774CE}
+		{0990C997-D108-4915-828F-D30A329CCC01} = {8E645268-5ADF-47AC-BE8B-8B5DD6F774CE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D28C490-D5E7-4F62-A837-3B7EC8F415F0}
 	EndGlobalSection
 EndGlobal
