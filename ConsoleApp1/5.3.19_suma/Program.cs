@@ -10,7 +10,18 @@ namespace _5._3._19_suma
     {
         static void Main(string[] args)
         {
-            
+            int suma = 0;
+            int broj = 1;
+
+            while (broj != 0)
+            {
+                Console.Write("Unesite prirodan broj: ");
+                broj = int.Parse(Console.ReadLine());
+
+                suma += broj;
+            }
+            Console.WriteLine("Suma unesenih brojeva je " + suma.ToString() + ".");
+            Console.ReadKey();
         }
     }
 }

@@ -11,16 +11,33 @@ namespace _5._3._9_djelitelji
         static void Main(string[] args)
         {
             Console.WriteLine("Unesi jedan prirodni broj");
-            int a = int.Parse(Console.ReadLine());
-            for (int i = 1; i <= a; i++)
+            try
             {
-                if (a % i == 0)
+                int a = int.Parse(Console.ReadLine());
+                if (a < 0)
+                    throw new Exception("Uneseni broj mora biti veci od nule");
+                for (int i = 1; i <= a; i++)
                 {
-                    Console.Write("{0} ", i);
-                }
+                    if (a % i == 0)
+                    {
+                        Console.Write("{0} ", i);
+                    }
 
-           }
-            Console.ReadKey();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Dogodila se greška:");
+                Console.WriteLine("Opis greške: " + ex.Message);
+            }
+            finally
+            {
+                Console.ReadKey();
+            }
+            
+            
+            
+            
         }
     }
 }
