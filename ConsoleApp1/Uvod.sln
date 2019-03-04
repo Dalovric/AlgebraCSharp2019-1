@@ -89,6 +89,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.3.20_par_nepar", "5.3.20_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.3.22_kalkulator2", "5.3.22_kalkulator2\5.3.22_kalkulator2.csproj", "{CC0BA8A4-E5C3-4FFE-8049-5892A7DFD83C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.1_Nizovi_(Arrays)", "6.1_Nizovi_(Arrays)", "{1F5EB1EF-19D6-4F79-8E79-44110757C382}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.1.1_primjer", "6.1.1_primjer\6.1.1_primjer.csproj", "{44BEE455-0B2D-496B-94C4-BDE9B1AFC648}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -251,6 +255,10 @@ Global
 		{CC0BA8A4-E5C3-4FFE-8049-5892A7DFD83C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC0BA8A4-E5C3-4FFE-8049-5892A7DFD83C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC0BA8A4-E5C3-4FFE-8049-5892A7DFD83C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44BEE455-0B2D-496B-94C4-BDE9B1AFC648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44BEE455-0B2D-496B-94C4-BDE9B1AFC648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44BEE455-0B2D-496B-94C4-BDE9B1AFC648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44BEE455-0B2D-496B-94C4-BDE9B1AFC648}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -293,6 +301,7 @@ Global
 		{50845817-56B6-432E-95F5-01C56965E7DD} = {BC0295F9-A6CD-47F4-8A1C-E7BE5A94F397}
 		{FDBCA28C-5531-452A-AC39-AEB696CD27B2} = {BC0295F9-A6CD-47F4-8A1C-E7BE5A94F397}
 		{CC0BA8A4-E5C3-4FFE-8049-5892A7DFD83C} = {BC0295F9-A6CD-47F4-8A1C-E7BE5A94F397}
+		{44BEE455-0B2D-496B-94C4-BDE9B1AFC648} = {1F5EB1EF-19D6-4F79-8E79-44110757C382}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2A280A7F-DA9F-4EC3-BFD5-C176B67D35A9}
