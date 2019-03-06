@@ -19,7 +19,7 @@ namespace _7._2._3_KW_u_KS
 
         static double ks (double broj)
         {
-            return (0.736 * broj);
+            return (1.35 * broj);
         }
 
     }

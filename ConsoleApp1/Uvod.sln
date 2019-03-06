@@ -131,6 +131,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.2.5_udaljenost", "7.2.5_u
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.2.6_prost_broj", "7.2.6_prost_broj\7.2.6_prost_broj.csproj", "{AE4BE834-F6D2-43E6-AECC-980990982434}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8.1_objekti", "8.1_objekti", "{9889C21E-93AA-4BD2-8909-857B33FCA702}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.1.2_Prirucnik", "8.1.2_Prirucnik\8.1.2_Prirucnik.csproj", "{6D1BEEDE-9C8A-4054-AA74-B506B33C3E7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -365,6 +369,10 @@ Global
 		{AE4BE834-F6D2-43E6-AECC-980990982434}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE4BE834-F6D2-43E6-AECC-980990982434}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE4BE834-F6D2-43E6-AECC-980990982434}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D1BEEDE-9C8A-4054-AA74-B506B33C3E7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D1BEEDE-9C8A-4054-AA74-B506B33C3E7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D1BEEDE-9C8A-4054-AA74-B506B33C3E7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D1BEEDE-9C8A-4054-AA74-B506B33C3E7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -425,6 +433,7 @@ Global
 		{A9419A86-7606-4B7A-A20E-56129976D776} = {5A4137CB-192B-48E8-A4C1-5DD3B06B410A}
 		{6F09030F-7D1C-4F9F-B8C0-030A9C558B2E} = {5A4137CB-192B-48E8-A4C1-5DD3B06B410A}
 		{AE4BE834-F6D2-43E6-AECC-980990982434} = {5A4137CB-192B-48E8-A4C1-5DD3B06B410A}
+		{6D1BEEDE-9C8A-4054-AA74-B506B33C3E7D} = {9889C21E-93AA-4BD2-8909-857B33FCA702}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2A280A7F-DA9F-4EC3-BFD5-C176B67D35A9}
