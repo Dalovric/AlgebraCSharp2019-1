@@ -139,6 +139,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.1.1_proizvod", "8.1.1_pro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.1.2_automobil", "8.1.2_automobil\8.1.2_automobil.csproj", "{5E62CE14-0A83-41F2-9986-645F6F432B38}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.2.2.1_prirucnik_primjer", "8.2.2.1_prirucnik_primjer\8.2.2.1_prirucnik_primjer.csproj", "{CF80F5C2-6585-4B60-B2AF-DB839CC8DF0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -385,6 +387,10 @@ Global
 		{5E62CE14-0A83-41F2-9986-645F6F432B38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E62CE14-0A83-41F2-9986-645F6F432B38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E62CE14-0A83-41F2-9986-645F6F432B38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF80F5C2-6585-4B60-B2AF-DB839CC8DF0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF80F5C2-6585-4B60-B2AF-DB839CC8DF0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF80F5C2-6585-4B60-B2AF-DB839CC8DF0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF80F5C2-6585-4B60-B2AF-DB839CC8DF0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -448,6 +454,7 @@ Global
 		{6D1BEEDE-9C8A-4054-AA74-B506B33C3E7D} = {9889C21E-93AA-4BD2-8909-857B33FCA702}
 		{80C86641-95E7-4084-B026-BD6B7B9A7D96} = {9889C21E-93AA-4BD2-8909-857B33FCA702}
 		{5E62CE14-0A83-41F2-9986-645F6F432B38} = {9889C21E-93AA-4BD2-8909-857B33FCA702}
+		{CF80F5C2-6585-4B60-B2AF-DB839CC8DF0A} = {9889C21E-93AA-4BD2-8909-857B33FCA702}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2A280A7F-DA9F-4EC3-BFD5-C176B67D35A9}
