@@ -2,7 +2,7 @@
 using System;
 namespace _8._3._1_nasljedjivanje
 {
-    internal class Ucenik:Osoba
+    internal class Ucenik : Osoba, IUcenik
     {
         // private string ime = "";
         // public DateTime datumNastanka;
@@ -10,6 +10,7 @@ namespace _8._3._1_nasljedjivanje
         public int ocjenaIzMatematike = 0;
         public int ocjenaIzEngleskog = 0;
         public int ocjenaIzBiologije = 0;
+        private Ispit prijavljeniIspit;
 
         // public string Ime { get => ime; set => ime = ToUpper.FirstCharToUpper(value); }
 
@@ -32,7 +33,13 @@ namespace _8._3._1_nasljedjivanje
             this.prezime = prez;
         }
 
-        internal double Prosjek()
+        public void PrijaviIspit(Ispit ispit)
+        {
+            this.prijavljeniIspit = ispit;
+            Console.WriteLine("Uspjesno ste prijavili ispit " + this.prijavljeniIspit.Naziv);
+        }
+
+        public double Prosjek()
         {
             double prosjek = 0;
             prosjek = (double)(ocjenaIzBiologije + ocjenaIzEngleskog + ocjenaIzMatematike) / 3;
@@ -42,7 +49,7 @@ namespace _8._3._1_nasljedjivanje
         }
         public override string ToString()
         {
-            return "Moje ime je " + this.Ime + " a moj prosjek je:" + this.Prosjek();
+            return "Moje ime je " + this.Ime + " a moj prosjek je:" + this.Prosjek()+" ja sam tipa "+this.GetType();
         }
     }
 }
