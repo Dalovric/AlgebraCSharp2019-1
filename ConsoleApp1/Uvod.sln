@@ -143,6 +143,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.2.2.1_prirucnik_primjer",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zadaca_11.3", "Zadaca_11.3\Zadaca_11.3.csproj", "{F5CBC5C2-9A43-4A3D-AAFB-A8F907417CDD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8.2.1_static", "8.2.1_static\8.2.1_static.csproj", "{54206AC0-0AE9-4EE8-9D0C-58890E284A2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -397,6 +399,10 @@ Global
 		{F5CBC5C2-9A43-4A3D-AAFB-A8F907417CDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5CBC5C2-9A43-4A3D-AAFB-A8F907417CDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5CBC5C2-9A43-4A3D-AAFB-A8F907417CDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54206AC0-0AE9-4EE8-9D0C-58890E284A2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54206AC0-0AE9-4EE8-9D0C-58890E284A2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54206AC0-0AE9-4EE8-9D0C-58890E284A2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54206AC0-0AE9-4EE8-9D0C-58890E284A2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -462,6 +468,7 @@ Global
 		{5E62CE14-0A83-41F2-9986-645F6F432B38} = {9889C21E-93AA-4BD2-8909-857B33FCA702}
 		{CF80F5C2-6585-4B60-B2AF-DB839CC8DF0A} = {9889C21E-93AA-4BD2-8909-857B33FCA702}
 		{F5CBC5C2-9A43-4A3D-AAFB-A8F907417CDD} = {9889C21E-93AA-4BD2-8909-857B33FCA702}
+		{54206AC0-0AE9-4EE8-9D0C-58890E284A2B} = {9889C21E-93AA-4BD2-8909-857B33FCA702}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2A280A7F-DA9F-4EC3-BFD5-C176B67D35A9}
