@@ -48,7 +48,7 @@ namespace _9._1._1_17_manipulacija
             }
 
 
-            nizrijeci.
+            nizrijeci = recenica.Split(' ');
             Console.WriteLine("9.1.4 Brojac rijeci u recenici");
             Console.WriteLine("Recenica '{0}' ima {1} rijeci", recenica, nizrijeci.Length);
 
