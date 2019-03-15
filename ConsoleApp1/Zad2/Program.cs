@@ -12,8 +12,8 @@ namespace Zad2
         {
 
             List<string> skup = new List<string>();
-            
-                while(true)
+
+            while (true)
             {
                 Console.WriteLine("Upisi rijec: ");
                 string rijec = Console.ReadLine();
@@ -26,29 +26,33 @@ namespace Zad2
                 {
                     skup.Add(rijec);
                 }
+            }
+            List<string> rijeciSaSlovomA = (from ri in skup where ri.ToString().StartsWith("a") select ri).ToList();
+            List<string> rijeciSaSlovomB = (from ri in skup where ri.ToString().StartsWith("b") select ri).ToList();
+            List<string> rijeciSaSlovomC = (from ri in skup where ri.ToString().StartsWith("c") select ri).ToList();
 
-                List<string> rijeciSaSlovomA = (from ri in skup where ri.Contains("a") select ri).ToList();
-                List<string> rijeciSaSlovomB = (from ri in skup where ri.Contains("b") select ri).ToList();
-                List<string> rijeciSaSlovomC = (from ri in skup where ri.Contains("c") select ri).ToList();
-
-                foreach (string rij1 in rijeciSaSlovomA)
-                {
-                    Console.Write(rijec + ", ");
-                }
-
-                foreach (string rij1 in rijeciSaSlovomA)
-                {
-                    Console.Write(rijec + ", ");
-                }
-
-                foreach (string rij1 in rijeciSaSlovomA)
-                {
-                    Console.Write(rijec + ", ");
-                }
-
-                Console.ReadKey();
+            Console.WriteLine("Rijeci koje pocinju sa A:");
+            foreach (string rij1 in rijeciSaSlovomA)
+            {
+                Console.Write(rij1 + ", ");
+            }
+            Console.WriteLine("Rijeci koje pocinju sa B:");
+            foreach (string rij1 in rijeciSaSlovomB)
+            {
+                Console.Write(rij1 + ", ");
+            }
+            Console.WriteLine("Rijeci koje pocinju sa C:");
+            foreach (string rij1 in rijeciSaSlovomC)
+            {
+                Console.Write(rij1 + ", ");
             }
 
+            Console.ReadKey();
         }
+
     }
+
 }
+        
+    
+
