@@ -2,7 +2,7 @@
 {
     internal class Automobil
     {
-        // Polja
+        // Svojstva
         public string Naziv = "";
         public int GodinaProizvodnje = 0;
         public double OsnovnaCijena = 0;
